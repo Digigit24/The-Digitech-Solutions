@@ -603,17 +603,7 @@ img {
   --ztc-weight-black: 800;
   --ztc-family-font1: 'Figtree', sans-serif;
 }
-
-/*
-============================
-Name:  SEOC - Digital Marketing Agency Templete
-Version: 3.0.0
-Description: SEO - Digital Marketing Agency Templete
-Author: Vikiglab
-Author URI: https://themeforest.net/user/vikinglab/portfolio
-Location:
-============================
-*/
+/*============= FLOATING CSS AREA ==============*/
 /*============= HEDAER CSS AREA ===============*/
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE-MENU CSS AREA ===============*/
@@ -630,6 +620,49 @@ Location:
 /*============= OTHERS CSS AREA ===============*/
 /*============= FOOTER CSS AREA ===============*/
 /*============= COMMON CSS AREA ===============*/
+
+.call-icon {
+  position: fixed;
+  bottom: 170px;
+  right: 28px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.whatsapp-icon-svg {
+  width: 30px;
+  fill: white;
+  background: transparent;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 100px;
+  right: 28px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.whatsapp-icon-svg {
+  width: 30px;
+  fill: white;
+  background: transparent;
+}
+
 .heading1 h5 {
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
