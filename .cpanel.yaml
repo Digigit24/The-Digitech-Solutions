@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/digitechsolutions/public_html/
+    - export DEPLOYPATH=/home/digitechsolution/public_html/
     - /bin/cp -r * $DEPLOYPATH
